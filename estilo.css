@@ -144,3 +144,22 @@
     display: flex;
     justify-content: center;
 }
+
+@media(max-width: 767px){
+    .game-netshoes{
+        width: 100%;
+    }
+    .game-netshoes .barra-widget .barra-palpites{
+        flex-direction: column;
+    }
+    .game-netshoes .barra-widget .barra-palpites #search{
+        min-width: 200px;
+    }
+    .game-netshoes .barra-widget .barra-palpites .barra-palpites-input{
+        flex-direction: column;
+    }
+    .game-netshoes .barra-widget .barra-palpites .barra-palpites-timer{
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+}
