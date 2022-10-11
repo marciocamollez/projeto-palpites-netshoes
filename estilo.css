@@ -1,0 +1,146 @@
+#cupom-premio{
+    display: none;
+}
+.game-netshoes{
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    background-color: #5a2d82;
+    font-family: 'Regan ExtraBoldItalic', sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.game-netshoes h1{
+    color: #dca700;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+.game-netshoes p{
+    color: #FFF;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.game-netshoes p span{
+    color: #dca700;
+}
+
+.game-netshoes .barra-widget{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.game-netshoes .barra-widget #iniciar{
+    background: #feba3c;
+    color: #512874;
+    border: 0;
+    padding: 10px 20px;
+    font-family: 'Regan ExtraBoldItalic', sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border: 1px solid #feba3c;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.game-netshoes .barra-widget #iniciar:hover{
+    color: #feba3c;
+    background: #512874;
+    transition: 0.5s;
+    border: 1px solid #feba3c;
+    cursor: pointer;
+}
+.game-netshoes .barra-widget #iniciar:disabled {
+    background: #dddddd;
+    color: #555;
+    border: 1px solid #dddddd;
+    cursor: not-allowed;
+}
+.game-netshoes .barra-widget .barra-palpites{
+    display: flex;
+    align-items: center;
+}
+.game-netshoes .barra-widget .barra-palpites .barra-palpites-input{
+    flex: 2;
+    display: flex;
+}
+.game-netshoes .barra-widget .barra-palpites .barra-palpites-timer{
+    flex: 1;
+    padding-left: 20px;
+    box-sizing: border-box;
+    color: #FFF;
+    font-size: 1.2rem;
+
+}
+.game-netshoes .barra-widget .barra-palpites .barra-palpites-timer #count{
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+}
+.game-netshoes .barra-widget .barra-palpites #search{
+    min-width: 270px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border-radius: 0;
+    border: 1px solid #dddddd;
+    font-size: 100%;
+}
+
+.game-netshoes .barra-widget .barra-palpites input[type="text"][disabled] {
+    color: #FFFFFF;
+    background: #d5d5d5;
+ }
+.game-netshoes .barra-widget .barra-palpites #palpitar{
+    padding: 10px 20px;
+    background-color: #007e2b;
+    border: 1px solid #007e2b;
+    border-radius: 0;
+    color: #FFF;
+    font-family: 'Regan ExtraBoldItalic', sans-serif;
+    font-size: 1rem;
+}
+.game-netshoes .barra-widget #palpitar:hover{
+    color: #FFF;
+    background-color: #3ab164;
+    transition: 0.5s;
+    border: 1px solid #3ab164;
+    cursor: pointer;
+}
+.game-netshoes .barra-widget .barra-palpites #palpitar:disabled{
+    background: #a3a3a3;
+    color: #555;
+    border: 1px solid #dddddd;
+    cursor: not-allowed;
+}
+
+.game-netshoes ol#acertos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    background: #6d32a1;
+}
+.game-netshoes ol#acertos li.respostas{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.game-netshoes #cupom-premio h2{
+    color: #dca700;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+.game-netshoes #cupom-premio .cupom-img{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netshoes Game - Mundial de Seleções</title>
+    <link rel="stylesheet" href="https://static.netshoes.com.br/bnn/l_netshoes/2022-10-11/1825_estilo.css" />
+    <script src="https://static.netshoes.com.br/bnn/l_netshoes/2022-10-11/9425_script.js"></script>
+    <link rel="stylesheet" href="https://static.netshoes.com.br/bnn/l_netshoes/2022-09-15/8915_fonte-regan.css">
+    <link rel="stylesheet" href="https://static.netshoes.com.br/bnn/l_netshoes/2022-09-15/5924_fonte-fixture.css">
+</head>
+<body>
+    <div class="game-netshoes">
+        <h1>Países finalistas do mundial de seleções</h1>
+        <p>Você é capaz de adivinhar os 13 países que já foram finalistas na história dos mundiais de seleções?</p> 
+        <p>Escreva no campo abaixo e clique em <span>"Palpitar!"</span>.</p>
+        <p>Você tem 90 segundos para acertar e ganhar um cupom de desconto.</p>
+
+        <div class="barra-widget">
+            <div>
+                <button onclick="startTimer()" id="iniciar">Iniciar</button>
+            </div>
+
+            <div class="barra-palpites">
+                <div class="barra-palpites-input">
+                    <input id="search" type="text" name="text" placeholder="Insira o país aqui" disabled>
+                    <button onclick="sendToPage()" id="palpitar" disabled>Palpitar!</button>
+                </div>
+                <div class="barra-palpites-timer">
+                    <span id="count">90</span> segundos 
+                </div>
+            </div>
+
+        </div>
+
+        <ol id="acertos"></ol>
+
+        <div id="cupom-premio">
+            <h2>Parabéns, você acertou todas as respostas! Clique no link abaixo e pegue seu cupom!</h2>
+            <div class="cupom-img">
+                <div>
+                    <a href="https://www.netshoes.com.br" target="_blank"><img src="https://static.netshoes.com.br/bnn/l_netshoes/2022-10-05/2944_BN_Quebra-Cabeca_11.png" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
